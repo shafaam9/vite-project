@@ -24,7 +24,10 @@ const AuthForm = () => {
           onChange={(e) => setInputs({...inputs, email: e.target.value})}/>
 
     <HStack spacing='24px'>
+    <Link to="/home">
       <Button colorScheme='blue'>Log In</Button>
+    </Link>
+
       <Button colorScheme='blue'>Sign Up</Button> 
     </HStack>
     
